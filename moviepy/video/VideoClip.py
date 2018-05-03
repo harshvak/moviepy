@@ -143,7 +143,7 @@ class VideoClip(Clip):
                         rewrite_audio=True, remove_temp=True,
                         write_logfile=False, verbose=True,
                         threads=None, ffmpeg_params=None,
-                        progress_bar=True):
+                        progress_bar=False):
         """Write the clip to a videofile.
 
         Parameters
